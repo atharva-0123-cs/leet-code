@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -19,6 +19,10 @@ export default function RootLayout({
   return (
       <RecoilRoot>
     <html lang="en">
+    <head>
+        <title>leet code</title>
+        <meta name='description' content='Description' />
+      </head>
       <body  suppressHydrationWarning={true} className={inter.className}>{children}</body>
     </html>
       </RecoilRoot>

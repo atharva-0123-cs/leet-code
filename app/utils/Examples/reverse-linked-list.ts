@@ -1,6 +1,6 @@
 import assert from "assert";
 import { Problem } from "../types/exmaple";
-import example from "./images/reverseLL.jpg";
+import example from "./Images/reverseLL.jpg";
 
 // JS doesn't have a built in LinkedList class, so we'll create one
 class LinkedList {
