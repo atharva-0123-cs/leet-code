@@ -1,8 +1,8 @@
-"use client"
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import {RecoilRoot} from 'recoil';
+import MetadataCard from './components/MetdataCard/MetadataCard'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-      <RecoilRoot>
+     <MetadataCard>
     <html lang="en">
     <head>
         <title>leet code</title>
@@ -25,6 +25,6 @@ export default function RootLayout({
       </head>
       <body  suppressHydrationWarning={true} className={inter.className}>{children}</body>
     </html>
-      </RecoilRoot>
+    </MetadataCard> 
   )
 }
