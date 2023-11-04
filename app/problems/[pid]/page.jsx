@@ -29,17 +29,17 @@ const ProblemPages = async ({params}) => {
 };
 
 // Return a list of `params` to populate the [pid] dynamic segment
-export async function generateStaticParams() {
-    const paths = Object.keys(problems);
-    if(paths)
-      console.log(paths);
-   else 
-      console.log("paths Not Found");
+// export async function generateStaticParams() {
+//     const paths = Object.keys(problems);
+//     if(paths)
+//       console.log(paths);
+//    else 
+//       console.log("paths Not Found");
 
-    return paths.map((path) => ({
-      params: {pid : path},
-    }));
-  }
+//     return paths.map((path) => ({
+//       params: {pid : path},
+//     }));
+//   }
 
  
 
