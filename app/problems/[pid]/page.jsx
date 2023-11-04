@@ -16,7 +16,7 @@ const ProblemPages = async ({params}) => {
   const {pid} = params;
   console.log("pid == ",pid);
 
-  const problem = await getProjects(pid)
+  const problem = await getProblems(pid)
   console.log(problem);
 
     return (
