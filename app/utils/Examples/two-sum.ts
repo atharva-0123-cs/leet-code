@@ -35,7 +35,7 @@ const handlerTwoSum = (fn: any) => {
 	}
 };
 
-export const twoSum: Problem = {
+ const twoSum: Problem = {
 	id: "two-sum",
 	title: "1. Two Sum",
 	problemStatement: `<p class='mt-3'>
@@ -81,3 +81,5 @@ export const twoSum: Problem = {
 	order: 1,
 	starterFunctionName: "function twoSum(",
 };
+
+export default twoSum;

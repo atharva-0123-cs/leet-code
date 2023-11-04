@@ -40,7 +40,7 @@ function searchMatrix(matrix, target) {
   // Write your code here
 };`;
 
-export const search2DMatrix: Problem = {
+ const search2DMatrix: Problem = {
 	id: "search-a-2d-matrix",
 	title: "5. Search a 2D Matrix",
 	problemStatement: `
@@ -87,3 +87,5 @@ export const search2DMatrix: Problem = {
 	starterFunctionName: "function searchMatrix",
 	order: 5,
 };
+
+export default search2DMatrix;

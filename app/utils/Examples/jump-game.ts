@@ -26,7 +26,7 @@ const starterCodeJumpGameJS = `function canJump(nums) {
   // Write your code here
 };`;
 
-export const jumpGame: Problem = {
+ const jumpGame: Problem = {
 	id: "jump-game",
 	title: "3. Jump Game",
 	problemStatement: `<p class='mt-3'>
@@ -60,3 +60,5 @@ export const jumpGame: Problem = {
 	starterFunctionName: "function canJump(",
 	order: 3,
 };
+
+export default jumpGame;
