@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
 import EditorFooter from "./EditorFooter";
 import { auth, firebase } from "@/app/firebase/firebase";
-import { problems } from "@/app/utils/Examples/page";
+import { problems } from "@/app/utils/Examples";
 import { usePathname } from "next/navigation";
 import useLocalStorage from "@/app/hooks/useLocalStorage"
 // import useLocalStorage from "@/hooks/useLocalStorage";

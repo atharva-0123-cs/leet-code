@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 import { Problem } from "@/app/mockProblems/problrms";
 import { useSearchParams, usePathname } from 'next/navigation'
 import next from "next";
-import { problems } from "@/app/utils/Examples/page";
+import { problems } from "@/app/utils/Examples";
 
 // import { type } from "os";
 

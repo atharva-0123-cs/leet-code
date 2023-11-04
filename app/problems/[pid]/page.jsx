@@ -1,6 +1,6 @@
 import TopBar from "@/app/components/TopBar/TopBar";
 import Workspace from "@/app/components/Workspace/Workspace";
-import { problems } from "@/app/utils/Examples/page";
+import { problems } from "@/app/utils/Examples";
 
 
 async function getProblems(pid) {
